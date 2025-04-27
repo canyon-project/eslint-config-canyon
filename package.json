@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-canyon",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "main": "./eslint.config.js",
   "exports": {
@@ -9,7 +9,8 @@
     },
     "./prettier": {
       "import": "./prettier.config.js"
-    }
+    },
+    "./nest": "./nest/index.js"
   },
   "peerDependencies": {
     "eslint": "^9.22.0",
